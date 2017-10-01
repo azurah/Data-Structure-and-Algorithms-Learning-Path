@@ -1,5 +1,5 @@
 
-----------------1.TRAVERSING-----------------
+# TRAVERSING
 a.INORDER(root)				
 	if root != NULL
 		INORDER(root.left)
