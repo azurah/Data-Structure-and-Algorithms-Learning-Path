@@ -8,6 +8,7 @@ struct node{
 	node* right;
 };
 //-------------------------------------------------
+
 //Creation of new Node 
 node* newNode(int data){
 	node* temp = new node;
@@ -17,6 +18,7 @@ node* newNode(int data){
 	return temp;
 }
 //-------------------------------------------------
+
 //Insertion of data into BST
 void insert(int data,node* head){
 	node* h = head;
@@ -40,6 +42,7 @@ void insert(int data,node* head){
 	}	
 }
 //-------------------------------------------------
+
 //Traversal
 void preorder(node* head){//preorder---------------
 	node* h = head;
@@ -60,6 +63,7 @@ void postorder(node* head){//postorder------------
 	cout<<h->val<<" ";
 }
 //-------------------------------------------------
+
 //Searching key value in BST
 node* search(int key,node* root){
 	if(root==NULL || key==root->val) return root;
@@ -67,6 +71,7 @@ node* search(int key,node* root){
 	else search(key,root->left);
 }
 //-------------------------------------------------
+
 //Search and insert data if not present in BST
 void SearchAndInsert(int data,node* head){
 	node* h = head;
@@ -92,7 +97,28 @@ void SearchAndInsert(int data,node* head){
 		cout<<"Already present!!";
 	}	
 }
-//----------------------Main()---------------------
+//-------------------------------------------------
+
+// MIN and MAX of BST
+node* Min(node* root){//MIN------------------------
+	node* h = root;
+	while(h->left) h=h->left;
+	return h;
+}
+node* Max(node* root){//MAX------------------------
+	node* h = root;
+	while(h->right) h=h->right;
+	return h;
+}
+
+//successor and 
+node* successor(node* root){
+	if (root!=NULL || root->right!=NULL) return Min(root->right);
+}
+node* predecessor(node* root){
+	if (root!=NULL || root->left!=NULL) return Max(root->left);
+}
+//----------------------MAIN-----------------------
 int main(){
 	int numberOfNodes,data;
 	cin>>numberOfNodes;
@@ -126,8 +152,20 @@ int main(){
 	cout<<"\nEnter value to search in Tree = ";
 	cin>>data;
 	node* resultNode = search(data,root);
-	if(resultNode==NULL) cout<<"Not present!!";
-	else cout<<"Presnt in Tree!!";
+	if(resultNode==NULL)cout<<"Not present!!"<<endl;
+	else cout<<"Presnt in Tree!!"<<endl;
+	
+	//minimum and maximum
+ 	resultNode = Min(root);
+	cout<<"Minimum valuer in BST = "<<resultNode->val<<endl;
+	resultNode = Max(root);
+	cout<<"Maximum valuer in BST = "<<resultNode->val<<endl;
+	
+	//successor and predecessor
+ 	resultNode = successor(root);
+	cout<<"successor of root of BST = "<<resultNode->val<<endl;
+	resultNode = predecessor(root);
+	cout<<"predecessor of root of BST = "<<resultNode->val<<endl;
 }
 
 /*
@@ -142,7 +180,11 @@ Enter value to search in Tree if not present we add it to tree = 0
 
 inorder = 0 1 2 3 4 5 6 7 8 9 13
 
-Enter value to search in Tree = 0
+Enter value to search in Tree = 13
 Presnt in Tree!!
+Minimum valuer in BST = 0
+Maximum valuer in BST = 13
+successor of root of BST = 7
+predecessor of root of BST = 5
 ----------------------------------------------------------------------
 */
