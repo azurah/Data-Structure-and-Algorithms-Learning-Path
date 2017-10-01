@@ -1,25 +1,25 @@
 
-# TRAVERSING
-a.INORDER(root)				
+# TRAVERSING--------------------------------------
+## INORDER(root)				
 	if root != NULL
 		INORDER(root.left)
 		print root.key
 		INORDER(root.right)
 		
-a.PREORDER(root)				
+## PREORDER(root)				
 	if root != NULL
 		print root.key
 		PREORDER(root.left)
 		PREORDER(root.right)
 		
-c.POSTORDER(root)				
+## POSTORDER(root)				
 	if root != NULL
 		POSTORDER(root.left)
 		POSTORDER(root.right)
 		print root.key
 
-------------------2.SEARCH------------------
-a.SEARCH(key,root)
+# SEARCH----------------------------------------
+## SEARCH(key,root)
 	if root == NULL or key == root.key
 		return root
 	if key < root.key
@@ -27,7 +27,7 @@ a.SEARCH(key,root)
 	else
 		SEARCH(key,root.right)
 
-b.SEARCH(key,root)
+## SEARCH(key,root)
 	while root != NULL and key != root.key
 		if key < root.key
 			root = root.left
@@ -35,4 +35,4 @@ b.SEARCH(key,root)
 			root = root.right
 	return root
 
------------------3.INSERT--------------------
+# INSERT------------------------------------------
