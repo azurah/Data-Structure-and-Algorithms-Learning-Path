@@ -58,8 +58,7 @@
 
 # 4.DELETE
 ### void DELETE(key,root)
-	if key == root.key
-		if SUCCESSOR(root).left == NULL and 
+	
 
 # 5.MIN and MAX value in BST
 ### node* MIN(root)
