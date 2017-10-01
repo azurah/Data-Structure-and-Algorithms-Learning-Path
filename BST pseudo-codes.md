@@ -36,10 +36,30 @@
 	return root
 
 # 3.INSERT
-### INSERT()
+### void INSERT(data,root)
+	if root == NULL 
+		node* newNode = GetNewNode(data);
+		root = newNode
+		return
+	if data > root.key
+		if root.right != NULL
+			INSERT(root.right)
+		else
+			node* newNode = GetNewNode(data);
+			root.right = newNode
+			return
+	else
+		if root.left != NULL
+			INSERT(root.left)
+		else
+			node* newNode = GetNewNode(data);
+			root.left = newNode
+			return
 
 # 4.DELETE
-### DELETE()
+### void DELETE(key,root)
+	if key == root.key
+		if SUCCESSOR(root).left == NULL and 
 
 # 5.MIN and MAX value in BST
 ### node* MIN(root)
