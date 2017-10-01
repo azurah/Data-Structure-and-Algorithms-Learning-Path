@@ -8,7 +8,7 @@ struct node{
 	node* right;
 };
 
-//Creation of new Node -----------------------------------------------------------------------------------------------------------------
+//---------------------------------------------------------Creation of new Node 
 node* newNode(int data){
 	node* temp = new node;
 	temp->val = data;
@@ -17,7 +17,7 @@ node* newNode(int data){
 	return temp;
 }
 
-//Insertion of data into BST-----------------------------------------------------------------------------------------------------------
+//----------------------------------------------------Insertion of data into BST
 void insert(int data,node* head){
 	node* h = head;
 	if(data>h->val){
@@ -39,32 +39,32 @@ void insert(int data,node* head){
 		}
 	}	
 }
-//Traversal-----------------------------------------------------------------------------------------------------------------------------
-void preorder(node* head){//preorder---------------
+//----------------------------------------------------------------Traversal
+void preorder(node* head){//-------------------------------preorder
 	node* h = head;
 	cout<<h->val<<" ";
 	if(h->left!=NULL) preorder(h->left);
 	if(h->right!=NULL) preorder(h->right);
 }
-void inorder(node* head){//inorder----------------
+void inorder(node* head){//---------------------------------inorder
 	node* h = head;
 	if(h->left!=NULL) inorder(h->left);
 	cout<<h->val<<" ";
 	if(h->right!=NULL) inorder(h->right);
 }
-void postorder(node* head){//postorder------------
+void postorder(node* head){//------------------------------postorder
 	node* h = head;
 	if(h->left!=NULL) postorder(h->left);
 	if(h->right!=NULL) postorder(h->right);
 	cout<<h->val<<" ";
 }
-//Searching key value in BST------------------------------------------------------------------------------------------------------------
+//------------------------------------------------------------Searching key value in BST
 node* search(int key,node* root){
 	if(root==NULL || key==root->val) return root;
 	if(key>root->val) search(key,root->right);
 	else search(key,root->left);
 }
-// MIN and MAX of BST-------------------------------------------------------------------------------------------------------------------
+//------------------------------------------------------------------- MIN and MAX of BST
 node* Min(node* root){
 	node* h = root;
 	while(h->left) 
@@ -78,7 +78,7 @@ node* Max(node* root){
 	return h;
 }
 
-//successor and predecessor-------------------------------------------------------------------------------------------------------------
+//------------------------------------------------------------------successor and predecessor
 node* successor(node* root){
 	if (root!=NULL || root->right!=NULL) return Min(root->right);
 }
@@ -86,7 +86,7 @@ node* predecessor(node* root){
 	if (root!=NULL || root->left!=NULL) return Max(root->left);
 }
 
-//--------------------------------------------------------      Main function     ------------------------------------------------------
+//--------------------------------------------------------------------- Main function    
 int main(){
 	int numberOfNodes,data;
 	cin>>numberOfNodes;
