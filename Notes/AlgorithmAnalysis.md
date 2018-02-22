@@ -213,7 +213,7 @@ Compare functions in the limit, that is, asymptotically!
 (i.e., for large values of n)
 
 
-#Cases of different complexity functions
+# Cases of different complexity functions
 
 - Sub linear time : Those algorithms which
 somehow don’t even require to see the whole
