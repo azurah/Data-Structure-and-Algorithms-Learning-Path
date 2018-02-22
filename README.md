@@ -4,13 +4,13 @@
 This is my study plan to be completed in 3 to 6 months to get placement in good comapany !!
 Here all the pseudocodes of Data structures and algorithms are going to be available. External links are also there to solve some of the coding problem related to perticular topic. It helps to build a better understanding of the topic.
 
-------------------
+
 # Books
 
-------------------
+
 # Time Complexity
 
-------------------
+
 # Data Structures
 ### Arrays
 ### Strings
@@ -29,7 +29,7 @@ Here all the pseudocodes of Data structures and algorithms are going to be avail
 ### Graphs
 ### Sets and Maps*
 
-------------------
+
 # Algorithms
 
 ### Analysis of Algorithms
