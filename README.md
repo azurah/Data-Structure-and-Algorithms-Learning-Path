@@ -5,6 +5,9 @@ This is my study plan to be completed in 3 to 6 months to get placement in good 
 Here all the pseudocodes of Data structures and algorithms are going to be available. External links are also there to solve some of the coding problem related to perticular topic. It helps to build a better understanding of the topic.
 
 
+# Practical session on Git
+[link](https://www.youtube.com/watch?v=MJUJ4wbFm_A)
+
 # Books
 
 
