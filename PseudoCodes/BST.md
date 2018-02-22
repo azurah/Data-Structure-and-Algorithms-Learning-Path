@@ -20,7 +20,7 @@
 			POSTORDER(root.right)
 			print root.key
 
-# 2.SEARCH<both recursively and iteratively
+# 2.SEARCH - both recursively and iteratively
 ### Recursive Search
 	node* SEARCH(key,root)
 		if root == NULL or key == root.key
@@ -78,7 +78,7 @@
 			root = root.right
 		return root
 
-# 6.HEIGHT<No. of edges in longest path from given node to leaf node>
+# 6.HEIGHT - No. of edges in longest path from given node to leaf node
 
 	int HEIGHT(node)
 		if node == NULL
