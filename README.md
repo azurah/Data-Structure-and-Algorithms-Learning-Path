@@ -1,11 +1,11 @@
 # Data-Structure-Codes
-This is one stop for most of the famous data structures and their pseudocodes.
+This is one stop for most of the famous data structures and their pseudocodes also links to concept building problems.
 
 # What is it?
 ![Big 5](https://github.com/perceptron00/DSA-PseudoCodes/blob/master/Images/Big5.jpg)
 
 This is my study plan to be completed in 3 to 6 months to get placement in good comapany !!
-Here all the pseudocodes of Data structures and algorithms are going to be available.
+Here all the pseudocodes of Data structures and algorithms are going to be available. External links are also there to solve some of the coding problem related to perticular topic. It helps to build a better understanding of the topic.
 
 # Books
 
