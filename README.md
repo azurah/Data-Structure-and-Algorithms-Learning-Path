@@ -43,7 +43,7 @@ Here all the pseudocodes of Data structures and algorithms are going to be avail
 - Graph Algorithms
 - Approximation Algorithms
 - Mathematical Algorithms
-- Bit Algorithms
+- Bit-wise Algorithms
 - Geometric Algorithms
 - Randomized Algorithms
 - Pattern Searching
