@@ -9,7 +9,7 @@ Here all the pseudocodes of Data structures and algorithms are going to be avail
 [Practical session on Git](https://www.youtube.com/watch?v=MJUJ4wbFm_A)
 
 # Books
-
+x=30
 
 # Time Complexity
 
