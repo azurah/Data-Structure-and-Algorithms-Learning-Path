@@ -10,11 +10,6 @@ Here all the pseudocodes of Data structures and algorithms are going to be avail
 
 # Books
 
-
-
-# Time Complexity
-
-
 # Data Structures
 ### Arrays
 ### Strings
