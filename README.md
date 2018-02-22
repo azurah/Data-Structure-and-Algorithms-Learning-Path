@@ -20,12 +20,12 @@ Here all the pseudocodes of Data structures and algorithms are going to be avail
 ### Linked List
 ### Hash Table
 ### Trees
- ###### [Binary Search Tree](https://github.com/perceptron00/DSA-PseudoCodes/blob/master/PseudoCodes/BST.md)
- ###### AVL Tree 
- ###### Red Black Tree
- ###### Splay Tree
- ###### B Tree
- ###### B+ Tree
+  ###### [Binary Search Tree](https://github.com/perceptron00/DSA-PseudoCodes/blob/master/PseudoCodes/BST.md)
+  ###### AVL Tree 
+  ###### Red Black Tree
+  ###### Splay Tree
+  ###### B Tree
+  ###### B+ Tree
 ### Graphs
 ### Sets and Maps*
 
