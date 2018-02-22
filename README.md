@@ -12,6 +12,7 @@ Here all the pseudocodes of Data structures and algorithms are going to be avail
 ## Books
 
 ## Analysis of Algorithms
+ - [Notes](https://github.com/perceptron00/DSA-PseudoCodes/blob/master/Notes/AlgorithmAnalysis.md#time-space-tradeoff)
  - [Asymptotic Notation(video)](https://www.youtube.com/watch?v=iOq5kSKqeR4&t=10s)
  - [Computational Complexity(video)](https://www.youtube.com/watch?v=IM9sHGlYV5A&list=PL6nL4szcweJinUXs7Lq9M_cPNK27Uo7xT&index=2)
 # Data Structures
