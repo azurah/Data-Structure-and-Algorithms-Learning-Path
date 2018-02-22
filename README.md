@@ -41,7 +41,6 @@ Here all the pseudocodes of Data structures and algorithms are going to be avail
 ### Branch and Bound
 ### Graph Algorithms
 ### Approximation Algorithms
-------------------
 ### Mathematical Algorithms
 ### Bit Algorithms
 ### Geometric Algorithms
