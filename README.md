@@ -14,7 +14,7 @@ Here all the pseudocodes of Data structures and algorithms are going to be avail
 ## Analysis of Algorithms
  - [Asymptotic Notation(video)](https://www.youtube.com/watch?v=iOq5kSKqeR4&t=10s)
  - [Computational Complexity(video)](https://www.youtube.com/watch?v=IM9sHGlYV5A&list=PL6nL4szcweJinUXs7Lq9M_cPNK27Uo7xT&index=2)
- - [Good Jupyter notebooks by @jmportilla](http://nbviewer.jupyter.org/github/jmportilla/Python-for-Algorithms--Data-Structures--and-Interviews/tree/master/Algorithm%20Analysis%20and%20Big%20O/)
+ - [Good Jupyter notebooks](http://nbviewer.jupyter.org/github/jmportilla/Python-for-Algorithms--Data-Structures--and-Interviews/tree/master/Algorithm%20Analysis%20and%20Big%20O/) by @jmportilla
  - [ppt(link)](https://docs.google.com/viewer?a=v&pid=sites&srcid=dGhhcGFyLmVkdXxkYXRhLXN0cnVjdHVyZXMtYWxnb3JpdGhtc3xneDo2ZDgxMDgwZmZmYzZlNWU)
  - [Notes(.md)](https://github.com/perceptron00/DSA-PseudoCodes/blob/master/Notes/AlgorithmAnalysis.md#time-space-tradeoff)
 # Data Structures
