@@ -1,5 +1,9 @@
 # Analysis of Algorithms
 
+#### [This ppt have all the notes](https://docs.google.com/viewer?a=v&pid=sites&srcid=dGhhcGFyLmVkdXxkYXRhLXN0cnVjdHVyZXMtYWxnb3JpdGhtc3xneDo2ZDgxMDgwZmZmYzZlNWU)
+
+# Practice Questions
+
 An algorithm is a finite set of precise instructions
 for performing a computation or for solving a
 problem.
