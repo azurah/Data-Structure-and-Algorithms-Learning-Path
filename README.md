@@ -17,6 +17,7 @@ Here all the pseudocodes of Data structures and algorithms are going to be avail
  - [Good Jupyter notebooks](http://nbviewer.jupyter.org/github/jmportilla/Python-for-Algorithms--Data-Structures--and-Interviews/tree/master/Algorithm%20Analysis%20and%20Big%20O/) by @jmportilla
  - [ppt(link)](https://docs.google.com/viewer?a=v&pid=sites&srcid=dGhhcGFyLmVkdXxkYXRhLXN0cnVjdHVyZXMtYWxnb3JpdGhtc3xneDo2ZDgxMDgwZmZmYzZlNWU)
  - [Notes(.md)](https://github.com/perceptron00/DSA-PseudoCodes/blob/master/Notes/AlgorithmAnalysis.md#time-space-tradeoff)
+ - [Method to calculate Complexity in loops](https://www.geeksforgeeks.org/analysis-of-algorithms-set-4-analysis-of-loops/)
 # Data Structures
 - Arrays
 - Strings
