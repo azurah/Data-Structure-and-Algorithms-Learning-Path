@@ -21,7 +21,8 @@ Here all the pseudo codes of Data structures and algorithms are going to be avai
 - Exploring C - Yashavant Kanetkar
 - Test Your C Skills - Yashavant Kanetkar (Coding Practice Book) MUST
 
-
+## Starting practice problems
+  - [Day0]()
 ## Analysis of Algorithms
  - [Asymptotic Notation(video)](https://www.youtube.com/watch?v=iOq5kSKqeR4&t=10s)
  - [Computational Complexity(video)](https://www.youtube.com/watch?v=IM9sHGlYV5A&list=PL6nL4szcweJinUXs7Lq9M_cPNK27Uo7xT&index=2)
