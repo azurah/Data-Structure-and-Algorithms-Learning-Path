@@ -2,10 +2,10 @@
  - [Asymptotic Notation(video)](https://www.youtube.com/watch?v=iOq5kSKqeR4&t=10s)
  - [Computational Complexity(video)](https://www.youtube.com/watch?v=IM9sHGlYV5A&list=PL6nL4szcweJinUXs7Lq9M_cPNK27Uo7xT&index=2)
  - [Good Jupyter notebooks](http://nbviewer.jupyter.org/github/jmportilla/Python-for-Algorithms--Data-Structures--and-Interviews/tree/master/Algorithm%20Analysis%20and%20Big%20O/) by @jmportilla
- - [This ppt have all the notes(link)](https://docs.google.com/viewer?a=v&pid=sites&srcid=dGhhcGFyLmVkdXxkYXRhLXN0cnVjdHVyZXMtYWxnb3JpdGhtc3xneDo2ZDgxMDgwZmZmYzZlNWU)
+ - This ppt have all the notes[(link)](https://docs.google.com/viewer?a=v&pid=sites&srcid=dGhhcGFyLmVkdXxkYXRhLXN0cnVjdHVyZXMtYWxnb3JpdGhtc3xneDo2ZDgxMDgwZmZmYzZlNWU)
  - [Notes(.md)](https://github.com/perceptron00/DSA-PseudoCodes/blob/master/Notes/AlgorithmAnalysis.md#time-space-tradeoff)
  - [List of questions to practice](https://github.com/perceptron00/Data-Structure-and-Algorithms-Learning-Path/blob/master/PracticeProblems/Analysis%20Of%20Algorithms.md)
- 
+ ------------------
 ### What is an algorithm?
 An algorithm is a finite set of precise instructions
 for performing a computation or for solving a
