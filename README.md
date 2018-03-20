@@ -1,8 +1,8 @@
 ## What is it?
 ![Big 5](https://github.com/perceptron00/DSA-PseudoCodes/blob/master/Images/Big5.jpg)
 
-This is my study plan to be completed in 3 to 6 months to get placement in good comapany !!
-Here all the pseudocodes of Data structures and algorithms are going to be available. External links are also there to solve some of the coding problem related to perticular topic. It helps to build a better understanding of the topic.
+This is my study plan to be completed in 3 to 6 months to get placement in good company !!
+Here all the pseudo codes of Data structures and algorithms are going to be available. External links are also there to solve some of the coding problem related to particular topic. It helps to build a better understanding of the topic.
 
 
 
@@ -40,7 +40,7 @@ Here all the pseudocodes of Data structures and algorithms are going to be avail
 - Hash Table
 - Trees
   - [Binary Search Tree](https://github.com/perceptron00/DSA-PseudoCodes/blob/master/PseudoCodes/BST.md)
-  - AVL Tree 
+  - AVL Tree
   - Red Black Tree
   - Splay Tree
   - B Tree
