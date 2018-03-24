@@ -40,7 +40,7 @@ Here all the pseudo codes of Data structures and algorithms are going to be avai
 - Linked List
 - Hash Table
 - Trees
-  - [Binary Search Tree](https://github.com/perceptron00/DSA-PseudoCodes/blob/master/PseudoCodes/BST.md)
+  - [Binary Search Tree](https://github.com/perceptron00/DSA-PseudoCodes/blob/master/Notes/BST.md)
   - AVL Tree
   - Red Black Tree
   - Splay Tree
