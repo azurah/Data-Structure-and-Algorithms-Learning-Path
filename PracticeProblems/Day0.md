@@ -12,7 +12,7 @@
 ![day0 Q1 d](https://github.com/perceptron00/Data-Structure-and-Algorithms-Learning-Path/blob/master/Images/Day0/d0q1d.JPG)
 
 Solution
- - [C/C++]()
+ - [C/C++](https://github.com/perceptron00/Data-Structure-and-Algorithms-Learning-Path/tree/master/Solutions/Day0%20Basics%20of%20programming)
  - Python
  - Java
 
