@@ -19,7 +19,7 @@ c.
  
 d.
 ![day0 Q1 d](https://github.com/perceptron00/Data-Structure-and-Algorithms-Learning-Path/blob/master/Images/Day0/d0q1d.JPG) Pascal’s Triangle 
- - [C++](link)
+ - [C++](https://gist.github.com/perceptron00/8418472ecc147ad9736ac82885903e77)
  - Python
  - Java
 
