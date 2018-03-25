@@ -17,8 +17,8 @@ c.
  - Python
  - Java
  
-d. Pascal’s Triangle 
-![day0 Q1 d](https://github.com/perceptron00/Data-Structure-and-Algorithms-Learning-Path/blob/master/Images/Day0/d0q1d.JPG)
+d.
+![day0 Q1 d](https://github.com/perceptron00/Data-Structure-and-Algorithms-Learning-Path/blob/master/Images/Day0/d0q1d.JPG) Pascal’s Triangle 
  - [C++](link)
  - Python
  - Java
