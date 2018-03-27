@@ -22,7 +22,8 @@ int main(){
 
 	printArr(arr,n);
 	// rotate_n2_time_cmplx_1_space_cmplx(arr,d,n);
-	rotate_n_time_cmplx_n_space_cmplx(arr,d,n);
+	// rotate_n_time_cmplx_n_space_cmplx(arr,d,n);
+	rotate_n_time_cmplx_1_space_cmplx(arr,d,n);
 	printArr(arr,n);
 
 	return 0;
@@ -68,12 +69,32 @@ void rotate_n_time_cmplx_n_space_cmplx(int *arr,int d, int n){
 	}
 }
 
+int gcd(int a, int b){	//time complexity Big-O(log(a) + log(b))
+	if(b==0) return a;
+	else return gcd(b,a%b);
+}
+
 void rotate_n_time_cmplx_1_space_cmplx(int *arr,int d, int n){
-	
+	int g,carry,j,k;
+
 	if(d>n) d=d%n;	//To check condition when d is greater than n
 	if(d==0) return;
 
-	//gcd of d and n
-	
-	
+	g = gcd(d,n);//time complexity Big-O(log(d) + log(n))
+
+	for (int i = 0; i < g; ++i)	// run for g time
+	{
+		carry = arr[i];
+		j = i;
+		while(1){				// run for n/g times
+			k = j + d;
+			if (k >= n) k = k-n;
+			if(k==i) break;
+			arr[j] = arr[k];
+			j = k;
+		}
+		arr[j] = carry;
+	}
+
+	// total time complexity is Big-O( (log(d) + log(n))*n/(log(d) + log(n)) ) = Big-O(n)
 }
