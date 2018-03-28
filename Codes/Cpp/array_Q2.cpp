@@ -6,7 +6,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-int elementSearch(int *arr,int item, int n);
+int pivotBS(int arr[], int n, int key);
 void printArr(int *arr, int n);
 
 int main(){
@@ -24,7 +24,7 @@ int main(){
 	cin>>item;
 
 	printArr(arr,n);
-	res = elementSearch(arr,item,n);
+	res = pivotBS(arr,n,item);
 	if(res != -1) cout<<"Found at index "<<res;
 	else cout<<"Not Found";
 
@@ -39,10 +39,33 @@ void printArr(int *arr, int n){
 	cout<<endl;
 }
 
-int elementSearch(int *arr, int item , int n){
-	int a = arr[0],b = arr[n-1];
+int binarySearch(int arr[], int l, int h, int item){
+	if(h<l) return -1;
+	int mid = (l+h)/2;
+	if(item == arr[mid]) return mid;
+	if(item>arr[mid]) return binarySearch(arr,mid+1,h,item);
+	return binarySearch(arr,l,mid-1,item);
+}
 
-	while(a<b){
-		//code
-	}
+int pivotPointIndex(int arr[], int low,int high){
+	if(high < low) return -1;
+	if(high == low) return low;
+
+	int mid = (low+high)/2;
+	if(mid<high && arr[mid]>arr[mid+1]) return mid;
+	if(mid>low && arr[mid]<arr[mid-1]) return mid-1;
+	if(arr[low]>=arr[mid]) return pivotPointIndex(arr,low,mid-1);
+	return pivotPointIndex(arr,mid+1,high);
+}
+
+int pivotBS(int arr[], int n, int key)
+{
+   int pivot = pivotPointIndex(arr, 0, n-1);
+   if (pivot == -1)
+       return binarySearch(arr, 0, n-1, key);
+   if (arr[pivot] == key)
+       return pivot;
+   if (arr[0] <= key)
+       return binarySearch(arr, 0, pivot-1, key);
+   return binarySearch(arr, pivot+1, n-1, key);
 }
